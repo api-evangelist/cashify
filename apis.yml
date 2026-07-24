@@ -1,8 +1,27 @@
 aid: cashify
 name: Cashify
-description: 'Cashify is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Cashify is an Indian re-commerce platform for buying, selling, and repairing
+  used and refurbished consumer electronics — smartphones, laptops, tablets, and other
+  gadgets. Founded in 2013 and headquartered in Gurugram, the company provides instant
+  online price quotes, free doorstep pickup with on-the-spot payment for devices sold
+  to it, and sells certified refurbished devices backed by warranty. Alongside its
+  consumer website and mobile apps, Cashify operates a network of physical retail stores
+  across India, runs device repair services, and offers a partner program for retailers.
+  It is backed by Bessemer Venture Partners among other investors. This profile was
+  added to the API Evangelist network as a company lead and has been enriched with
+  identity and domain-security artifacts.'
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://s3.cashify.in/imageLibrary/57f7843958b70-logo_cashify.png
 url: https://raw.githubusercontent.com/api-evangelist/cashify/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- Re-Commerce
+- Electronics
+- Refurbished
+- Marketplace
+- Smartphones
+- Retail
+- India
+- Repair
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.cashify.in/
+- type: About
+  url: https://www.cashify.in/about-us
+- type: Blog
+  url: https://www.cashify.in/articles
+- type: Support
+  url: https://www.cashify.in/contact
+- type: TermsOfService
+  url: https://www.cashify.in/terms-conditions
+- type: PrivacyPolicy
+  url: https://www.cashify.in/privacy-policy
+- type: Careers
+  url: https://www.cashify.in/career
+- type: Partners
+  url: https://www.cashify.in/partner-with-us
+- type: DomainSecurity
+  url: security/cashify-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
